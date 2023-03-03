@@ -2,7 +2,7 @@
   <!-- <h1>Products</h1> -->
   <div class="container">
     <div class="row allProducts">
-      <div class="col-3 mt-3" v-for="(prod, key) in products" :key="key">
+      <div class="col-lg-4 col-md-6 col-12 mt-3" v-for="(prod, key) in products" :key="key">
         <div class="product__container">
           <div class="product__img">
             <!-- Webpack is a tool that lets you compile JavaScript modules, also known as module bundler.
